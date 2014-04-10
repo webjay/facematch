@@ -7,12 +7,8 @@ var Facematch = require('../lib/facematch.js');
 // var imgFiles = ['sailhead.jpg', 'sailhead2.jpg'];
 var imgFiles = ['Mona.jpg', 'Mona.jpg'];
 
-var imgs = [];
-
-before(function () {
-  for (var i in imgFiles) {
-    imgs.push(fs.readFileSync(__dirname + '/images/' + imgFiles[i]));
-  }
+var imgs = imgFiles.map(function (img) {
+  return __dirname + '/images/' + img;
 });
 
 describe('match', function(){
