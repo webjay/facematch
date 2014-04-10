@@ -1,0 +1,23 @@
+{
+  "name": "facematch",
+  "version": "0.0.1",
+  "description": "Match faces via OpenCV",
+  "main": "lib/facematch.js",
+  "scripts": {
+    "test": "mocha",
+    "preinstall": "npm i -g mocha"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webjay/facematch.git"
+  },
+  "author": "Jacob Friis Saxberg",
+  "license": "MIT",
+  "dependencies": {
+    "async": "0.7.x",
+    "opencv": "0.5.x"
+  }
+}
