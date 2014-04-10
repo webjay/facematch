@@ -1,5 +1,4 @@
 var assert = require('assert');
-var fs = require('fs');
 
 var Facematch = require('../lib/facematch.js');
 
