@@ -6,7 +6,7 @@ Match faces in profile images via [OpenCV](http://opencv.org).
 
 As this package uses [node-opencv](https://github.com/peterbraden/node-opencv) you need to be aware that node-opencv requires OpenCV to be installed. Thus, before you `npm install facematch` you should install OpenCV.
 
-On my Mac I did this:
+On my Mac I installed OpenCV like this:
 
     brew tap homebrew/science
     brew install opencv
