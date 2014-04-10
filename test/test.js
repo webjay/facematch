@@ -10,9 +10,9 @@ var imgs = imgFiles.map(function (img) {
   return __dirname + '/images/' + img;
 });
 
-describe('match', function(){
+describe('compare', function(){
   describe('#faces', function(){
-    it('should match faces', function (cb) {
+    it('should compare faces', function (cb) {
 
       var fm = new Facematch();
       fm.compare(imgs[0], imgs[1], function (err, diff) {
